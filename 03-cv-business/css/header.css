@@ -1,0 +1,9 @@
+.header {
+  padding: 400px;
+  text-align: center;
+  font-size: 30px;
+  position: relative; background-size: cover; 
+  z-index: 1;
+  background-image: url(../../images/banner/vivek.jpg); color: #fff; }
+
+}

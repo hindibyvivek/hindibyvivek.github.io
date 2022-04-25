@@ -1,0 +1,109 @@
+#demo {
+    background: linear-gradient(120deg, #ffffff 50%, antiquewhite 50%);	
+}
+
+/* ---------------------------------
+2. COMMONS FOR PAGE DESIGN
+--------------------------------- */
+
+.topsection{ padding: 0px 0 0px; border-bottom: 1px solid #ddd; }
+
+.topsection .heading{ padding-top:50px; margin-bottom: 60px; display: inline-block; }
+
+.topsection .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
+	margin: 0 auto 20px; display: block; background: #FFA804; }
+	
+.margin-t-10{ margin-top: 10px; }
+.margin-t-30{ margin-top: 30px; }
+
+.margin-b-20{ margin-bottom: 20px; }
+.margin-b-30{ margin-bottom: 30px; }
+.margin-b-50{ margin-bottom: 50px; }
+
+.margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
+.margin-tb-50{ margin-top: 50px; margin-bottom: 50px; }
+
+.font-yellow{ color: #FFA600; }
+
+.font-semi-white{ color: #ddd; }
+
+.font-lite-black{ color: #999; }
+
+.center-text{ text-align: center; }
+
+
+
+
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem
+    }
+}
+
+.carousel-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32%;
+}
+
+
+#image-caption {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+    #image-caption {
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem
+    }
+}
+
+.left-right-icons i {
+    background-color:#FFA804;
+    padding: 1.4rem
+}
+
+@media(max-width:767px) {
+    .left-right-icons i {
+        padding: 0.8rem
+    }
+}
+
+.carousel-control-prev {
+    justify-content: flex-start
+}
+
+.carousel-control-next {
+    justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset
+}
